@@ -1,0 +1,21 @@
+name: orayt_vendo_carwash
+description: A digital companion app for 5 Peso Orayt Vendo Carwash.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  audioplayers: ^6.0.0 # Handles the 10-second warning and time's up sound alerts
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
